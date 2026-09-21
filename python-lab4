@@ -1,0 +1,163 @@
+#upper and lower
+
+a="GOPIKA"
+print(a.lower())
+print(a.casefold())
+
+
+b="gopika"
+print(b.upper())
+
+#Swapcase
+a="GOPIKA"
+print(a.casefold())
+b="gopika"
+print(a.capitalize())
+
+#capitalize
+c="gopika is learning python"
+print(c.capitalize())
+
+#Startswith
+
+d="Python"
+print(d.startswith('g'))
+print(d.startswith('G'))
+
+#Endswith
+a="Python"
+print(a.endswith('on'))
+print(a.endswith('py'))
+
+#Replace
+
+a="Gopika is learning java"
+print(a.replace('java','python'))
+
+#strip
+a="         gopika          "
+print(a.strip())
+print(a.lstrip())
+print(a.rstrip())
+
+
+#Formatting Methods
+#Format
+
+a="Gopika"
+b="20"
+c="salem"
+print(f" My name is {a}, I am {b} years old and I live in {c}")
+
+a=str(input("name:"))
+b=int(input("age:"))
+c=str(input("city:"))
+print(f" My name is {a}, I am {b} years old and I live in {c}")
+
+#Center
+a="Gopika"
+print(a.center(20))
+print(a.center(20,'*'))
+
+#Ljust
+a="gopika"
+print(a.ljust(20,'*'))
+
+#rjust
+a="gopika"
+print(a.rjust(20,'*'))
+
+#Zfill
+
+a="5"
+print(a.zfill(6))
+
+
+#Checking Methods
+#Isdigit
+a="1234abc"
+b="abcd"
+c="1234"
+print(a.isdigit())
+print(b.isdigit())
+print(c.isdigit())
+
+#Isalpha
+a="1234abc"
+b="abcd"
+c="1234"
+print(a.isalpha())
+print(b.isalpha())
+print(c.isalpha())
+
+#Isascii
+a="1234abc"
+b="abcd"
+c="1234"
+print(a.isascii())
+print(b.isascii())
+print(c.isascii())
+
+#Combined Tasks
+#17
+a="gopika is learning python  "
+print(a.strip())
+print(a.capitalize())
+print(a.startswith('A'))
+
+#18
+a="python2006"
+print(a.isascii())
+print(a.endswith('py'))
+print(a.isalpha())
+print(a.isdigit())
+
+
+#19
+a="6382258883"
+print(a.isdigit())
+print(a.zfill(16))
+
+
+#20
+a="gopika is learning python"
+print(a.upper())
+print(a.replace(' ','-'))
+print(a.split())
+
+#For-else Task
+
+for i in range (1,6):
+    print(i)
+else:
+    print("loop completed")
+
+
+for i in range (1,11):
+    if i%2==0:
+        print(i)
+
+
+numbers=[1,2,3,4,5]
+for i in numbers:
+    if i==5:
+        print("found")
+        break
+else:
+    print("not found")
+numbers=[2,4,6,8]
+for i in numbers:
+    if i==10:
+        print("found")
+        break
+else:
+    print("not found")
+
+a='apple','banana','orange'
+for i in a:
+    if i=="apple":
+        print("its apple")
+        break
+else:
+   print("its not apple")
+
