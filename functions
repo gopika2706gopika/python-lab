@@ -1,0 +1,91 @@
+#User-Defined Functions
+'''
+#1. Create a function to print "Hello Python"
+def name():
+    print("Hello Python")
+name()
+
+
+#2. Create a function to print your name.
+def name():
+    print("Gopika")
+name()    
+
+#3. Create a function to add two numbers.
+
+def add(a,b):
+    print("add:",a+b)
+add(6,7)
+#4. Create a function to subtract two numbers.
+def number (a,b):
+    print("sub:",a-b)
+number(8,4)
+#5. Create a function to find the square of a number.
+def number():
+    print(b**2)
+b=int(input("enter b:"))
+number()
+#6. Create a function to check whether a number is even or odd.
+def number(a):
+    if a%2==0:
+        print("even")
+    else:
+        print("odd")
+number(2)
+#7. Create a function to find the largest of two numbers.
+def number(a,b):
+    if a > b:
+        print("a is largest")
+    else:
+        print("b is largest")
+number(40,30)        
+
+#8. Create a function to calculate the area of a rectangle.
+def number(a,b):
+    print("rectangle:",a*b)
+number(3,8)
+
+#9. Create a function to greet a person using their name.
+def greet():
+    print("Hello",name)
+name=str(input("enter name:"))
+greet()
+
+#10. Create a function to find the sum of three numbers.
+def sum(a,b,c):
+    return a+b+c
+print(sum(10,20,30))
+
+
+#2. Pre-Defined Functions
+#1. Find the length of "Python".
+a="Python"
+print(len(a))
+
+#2. Find the largest number in [10, 20, 30, 40].
+
+a=[10,20,30,40]
+print(max(a))
+
+#3. Find the smallest number in [15, 5, 25, 10].
+a=[15,5,25,10]
+print(min(a))
+
+
+#4. Find the sum of [10, 20, 30].
+a=[10,20,30]
+print(sum(a))
+
+#5. Sort [40, 10, 30, 20].
+a=[40,10,30,20]
+a.sort()
+print(a)
+
+#6. Find the absolute value of -50.
+
+a=(-50)
+print(abs(a))'''
+#7. Find the type of 100.
+a=(100)
+print(type(a))
+
