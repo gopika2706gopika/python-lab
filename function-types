@@ -1,0 +1,72 @@
+#function
+#user define fuction
+#without argument
+# def gopi():
+#     print("gopi is learning python")
+# gopi()
+
+
+#with argument
+# def gopi(name):
+#     print("name:",name)
+# gopi("vishnu")
+
+#positional
+# def gopi(name,course):
+#     print("name",name)
+#     print("course",course)
+# gopi(name="vishnu",course="python")
+
+
+
+#keyword argument
+
+# def gopi(name,course):
+#     print("name",name)
+#     print("course",course)
+# gopi(course="python",name="vishnu")
+
+#default argument
+# def gopi(name="vishnu"):
+#     print("name:", name)
+# gopi("monisha")
+# gopi()
+
+#variable argument
+# def marks(*args):
+#     print(sum(args))
+# marks(*args1,2,3,4,5)
+# marks(*args1,6,2)
+
+#variable
+# def add_number(*numbers):
+#     total=0
+#     for n in numbers:
+#         total+=n
+#         print("total",total)
+# add_number(5,10)
+# add_number(3,4,7,2)
+
+
+#recursion function
+# def factorial(n):
+#     if n == 0:
+#         return 1
+#     else:
+#         return n * factorial(n-1)
+# print(factorial(5))
+
+#lambda function
+#filter
+# num=[1,2,3,4,5,6,7]
+# even=list(filter(lambda x:x%2==0,num))
+# print(even)
+
+# name=["gopika","vichi","moni","balu"]
+# a=list(filter(lambda x:x.startswith("g"),name))
+# print(a)
+
+#mapping
+# a=[1,2,3,4,5,6]
+# b=list(map(lambda b:b*2,a))
+# print(b)
